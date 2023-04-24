@@ -1,6 +1,17 @@
 import React from "react"
+import { Link } from "react-router-dom"
 
-export default function Main() {
+
+const linkStyle = {
+  margin: "1rem",
+  textDecoration: "none",
+  color: 'blue'
+};
+    
+ 
+  
+
+function Main() {
     return (
        <main>
             <h1 className="main--title">Fun facts about React</h1>
@@ -9,9 +20,11 @@ export default function Main() {
                 <li>Topic 2</li>
                 <li>Topic 3</li>
                 <li>Topic 4</li>
+                <Link to="/About" style={linkStyle}></Link>
             </ul>
+            
        </main>
     )
 }
 
-
+export default Main;
