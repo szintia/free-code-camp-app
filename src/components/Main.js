@@ -20,7 +20,8 @@ function Main() {
                 <li>Topic 2</li>
                 <li>Topic 3</li>
                 <li>Topic 4</li>
-                <Link to="/About" style={linkStyle}></Link>
+                <li><Link to="/About" style={linkStyle}>About</Link></li>
+                
             </ul>
             
        </main>
