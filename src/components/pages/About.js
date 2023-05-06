@@ -1,9 +1,15 @@
 import React from "react";
 
-export default function About() {
+const aboutStyle = {
+    color: "white"
+  };
+
+function About() {
     return (
         <div>
-            <h1>About page</h1>
+            <h1 style={aboutStyle}>About page</h1>
         </div>
     )
 }
+
+export default About;
