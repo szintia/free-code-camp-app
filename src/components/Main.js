@@ -3,13 +3,12 @@ import { Link } from "react-router-dom"
 
 
 const linkStyle = {
-  margin: "1rem",
   textDecoration: "none",
-  color: 'blue'
+  color: "white",
+  marginTop: "46px",
+  marginWidth: "400px"
 };
     
- 
-  
 
 function Main() {
     return (
@@ -20,7 +19,8 @@ function Main() {
                 <li>Topic 2</li>
                 <li>Topic 3</li>
                 <li>Topic 4</li>
-                <li><Link to="/About" style={linkStyle}>About</Link></li>
+                <li><Link to="/About" style={linkStyle}>About page</Link></li>
+                <li><Link to="/AirBnb" style={linkStyle}>AirBnb project</Link></li>
                 
             </ul>
             
