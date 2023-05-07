@@ -1,4 +1,6 @@
 import React from "react";
+import AirBnbNavbar from "../content/AirBnbNavbar";
+
 
 const airBnbStyle = {
         color: "white",
@@ -7,7 +9,7 @@ const airBnbStyle = {
 function AirBnb() {
     return (
         <div style={airBnbStyle}>
-            <h1>Airbnb page</h1>
+            <AirBnbNavbar />
         </div>
     )
 }
