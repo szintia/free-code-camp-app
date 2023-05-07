@@ -6,7 +6,7 @@ import AirBnb from "./components/pages/AirBnb"
 import "./style.css"
 import { BrowserRouter, Routes, Route } from "react-router-dom"
 
-export default function App() {
+function App() {
     return (
         <div class="container">
             <BrowserRouter>
@@ -19,3 +19,4 @@ export default function App() {
         </div>  
     )
 }
+export default App;
