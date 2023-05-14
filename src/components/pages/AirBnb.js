@@ -3,8 +3,11 @@ import AirBnbNavbar from "../content/AirBnbNavbar";
 
 
 const airBnbStyle = {
-        color: "white",
+        boxSizing: "border-box",
 };
+
+document.body.style.margin = 0;
+document.body.style.backgroundColor = "white";
 
 function AirBnb() {
     return (
