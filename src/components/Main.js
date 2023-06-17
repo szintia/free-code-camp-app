@@ -1,4 +1,3 @@
-import React from "react"
 import { Link } from "react-router-dom"
 
 
@@ -11,6 +10,7 @@ const linkStyle = {
     
 
 function Main() {
+    document.body.style.backgroundColor = "#272b34";
     return (
        <main>
             <h1 className="main--title">Fun facts about React</h1>

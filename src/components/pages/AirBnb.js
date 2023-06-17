@@ -7,9 +7,9 @@ const airBnbStyle = {
 };
 
 document.body.style.margin = 0;
-document.body.style.backgroundColor = "white";
 
 function AirBnb() {
+    document.body.style.backgroundColor = "red"
     return (
         <div style={airBnbStyle}>
             <AirBnbNavbar />

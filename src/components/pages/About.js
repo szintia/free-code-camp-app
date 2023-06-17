@@ -1,10 +1,11 @@
 import React from "react";
 
 const aboutStyle = {
-    color: "white"
+    color: "black"
   };
 
 function About() {
+    document.body.style.backgroundColor = "white";
     return (
         <div>
             <h1 style={aboutStyle}>About page</h1>
